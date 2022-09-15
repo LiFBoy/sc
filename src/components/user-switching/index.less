@@ -1,0 +1,50 @@
+// 纯 hack 的代码，后续如果要收敛到 user-switching 组件中，样式部分可以重写
+.wrapper-user-switching {
+  // position: relative;
+  // z-index: 9;
+  .backToWorkbenchBtn {
+    border: 0;
+    color: #fff;
+    position: absolute;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 8px;
+    top: 0;
+    width: 30px;
+    background-color: #1785ec;
+    // z-index: 1;
+    &.hasGoBack {
+      margin-left: 38px;
+    }
+  }
+  .user {
+    border: 0;
+    color: #fff;
+    position: absolute;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 12px;
+    top: 0;
+    width: 20px;
+    background-color: #1785ec;
+    img {
+      width: 100%;
+    }
+    // z-index: 1;
+  }
+  .ss-component-user-switching-title-bar {
+    .left {
+      width: 46px;
+      .back-icon {
+        left: 15px !important;
+      }
+    }
+    .right {
+      width: 46px;
+    }
+  }
+}

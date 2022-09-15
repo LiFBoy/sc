@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.travis.yml
+.idea
+.vscode/
+npm-debug.log
+npm-debug.log.*
+*.bak
+*.zip
+package-lock.json
+build/
+dist/
+.history

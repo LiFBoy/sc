@@ -1,0 +1,71 @@
+// 全局样式
+// @author Pluto <huarse@gmail.com>
+// @create 2020/06/03 01:31
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sub-app-container {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+}
+.am-popover-hidden {
+  display: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+#ss-manage-container,
+.ant-layout {
+  height: 100%;
+}
+
+.flex-inline {
+  display: inline-flex;
+  align-items: center;
+}
+
+.flex-bt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.text-nowrap {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipsis-span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

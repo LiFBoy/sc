@@ -1,0 +1,20 @@
+{
+  "name": "mobile-container-la",
+  "description": "mobile-container",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "prod": "cross-env BUILD_ENV=production NODE_ENV=production node scripts/build.js",
+    "build": "cross-env BUILD_ENV=production NODE_ENV=production node scripts/build.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "copy-webpack-plugin": "^6.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "@irim/bin-tool": "^1.0.0",
+    "webpack": "^4.34.0"
+  }
+}
